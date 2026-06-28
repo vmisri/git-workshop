@@ -16,5 +16,14 @@ pipeline {
             }
         }
 
+        stage('Create ZIP') {
+            steps {
+                sh '''
+                cd MyWebsite
+                zip -r website.zip .
+                ls -lh website.zip
+                '''
+            }
+        }
     }
 }
