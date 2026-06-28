@@ -32,5 +32,18 @@ pipeline {
                 '''
             }
         }
+
+        stage('Deploy to CodeDeploy') {
+            steps {
+                sh '''
+                aws deploy create-deployment \
+                  --application-name MyWebApplication \
+                  --deployment-group-name MyDeploymentGroup \
+                  --s3-location bucket=jenkins-codedeploy-25-06-2026,key=website.zip,bundleType=zip \
+                  --region us-east-1
+                '''
+            }
+        }
+
     }
 }
