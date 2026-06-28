@@ -12,9 +12,9 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1782568370,,"wq!"
+|2,0,1782635376,,"wq!"
 :q!
-|2,0,1782568362,,"q!"
+|2,0,1782635352,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -25,76 +25,272 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	                sh 'pwd'
+|3,1,1,1,1,0,1782632078,"                sh 'pwd'"
+"2	LINE	0
+	            steps {
+|3,0,2,1,1,0,1782632077,"            steps {"
+"3	LINE	0
+	        stage('Display Files') {
+|3,0,3,1,1,0,1782632077,"        stage('Display Files') {"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1782632077,""
+"5	LINE	0
+	        }
+|3,0,5,1,1,0,1782632076,"        }"
+"6	LINE	0
+	            }
+|3,0,6,1,1,0,1782632076,"            }"
+"7	LINE	0
+	                checkout scm
+|3,0,7,1,1,0,1782632076,"                checkout scm"
+"8	LINE	0
+	            steps {
+|3,0,8,1,1,0,1782632075,"            steps {"
+"9	LINE	0
+	        stage('Checkout') {
+|3,0,9,1,1,0,1782632075,"        stage('Checkout') {"
 
 # File marks:
-'0  3  22  ~/scripts/install.sh
-|4,48,3,22,1782568370,"~/scripts/install.sh"
-'1  1  0  ~/scripts/install.sh
-|4,49,1,0,1782568362,"~/scripts/install.sh"
-'2  1  0  ~/scripts/install.sh
-|4,50,1,0,1782568362,"~/scripts/install.sh"
-'3  12  16  ~/MyWebsite/appspec.yml
-|4,51,12,16,1782568256,"~/MyWebsite/appspec.yml"
-'4  17  6  ~/MyWebsite/index.html
-|4,52,17,6,1782568222,"~/MyWebsite/index.html"
+'0  36  0  ~/MyWebsite/Jenkinsfile
+|4,48,36,0,1782635376,"~/MyWebsite/Jenkinsfile"
+'1  64  0  ~/MyWebsite/Jenkinsfile
+|4,49,64,0,1782635352,"~/MyWebsite/Jenkinsfile"
+'2  29  0  ~/MyWebsite/Jenkinsfile
+|4,50,29,0,1782635352,"~/MyWebsite/Jenkinsfile"
+'3  64  0  ~/MyWebsite/Jenkinsfile
+|4,51,64,0,1782632108,"~/MyWebsite/Jenkinsfile"
+'4  29  0  ~/MyWebsite/Jenkinsfile
+|4,52,29,0,1782632108,"~/MyWebsite/Jenkinsfile"
+'5  1  16  ~/MyWebsite/Jenkinsfile
+|4,53,1,16,1782632079,"~/MyWebsite/Jenkinsfile"
+'6  1  16  ~/MyWebsite/Jenkinsfile
+|4,54,1,16,1782632079,"~/MyWebsite/Jenkinsfile"
+'7  1  16  ~/MyWebsite/Jenkinsfile
+|4,55,1,16,1782632079,"~/MyWebsite/Jenkinsfile"
+'8  1  16  ~/MyWebsite/Jenkinsfile
+|4,56,1,16,1782632079,"~/MyWebsite/Jenkinsfile"
+'9  1  16  ~/MyWebsite/Jenkinsfile
+|4,57,1,16,1782632079,"~/MyWebsite/Jenkinsfile"
 
 # Jumplist (newest first):
--'  3  22  ~/scripts/install.sh
-|4,39,3,22,1782568370,"~/scripts/install.sh"
--'  1  0  ~/scripts/install.sh
-|4,39,1,0,1782568363,"~/scripts/install.sh"
--'  1  0  ~/scripts/install.sh
-|4,39,1,0,1782568362,"~/scripts/install.sh"
--'  12  16  ~/MyWebsite/appspec.yml
-|4,39,12,16,1782568256,"~/MyWebsite/appspec.yml"
--'  12  16  ~/MyWebsite/appspec.yml
-|4,39,12,16,1782568256,"~/MyWebsite/appspec.yml"
--'  12  16  ~/MyWebsite/appspec.yml
-|4,39,12,16,1782568256,"~/MyWebsite/appspec.yml"
--'  12  16  ~/MyWebsite/appspec.yml
-|4,39,12,16,1782568256,"~/MyWebsite/appspec.yml"
--'  1  0  ~/MyWebsite/appspec.yml
-|4,39,1,0,1782568241,"~/MyWebsite/appspec.yml"
--'  1  0  ~/MyWebsite/appspec.yml
-|4,39,1,0,1782568241,"~/MyWebsite/appspec.yml"
--'  1  0  ~/MyWebsite/appspec.yml
-|4,39,1,0,1782568241,"~/MyWebsite/appspec.yml"
--'  1  0  ~/MyWebsite/appspec.yml
-|4,39,1,0,1782568241,"~/MyWebsite/appspec.yml"
--'  17  6  ~/MyWebsite/index.html
-|4,39,17,6,1782568222,"~/MyWebsite/index.html"
--'  17  6  ~/MyWebsite/index.html
-|4,39,17,6,1782568222,"~/MyWebsite/index.html"
--'  17  6  ~/MyWebsite/index.html
-|4,39,17,6,1782568222,"~/MyWebsite/index.html"
--'  17  6  ~/MyWebsite/index.html
-|4,39,17,6,1782568222,"~/MyWebsite/index.html"
--'  17  6  ~/MyWebsite/index.html
-|4,39,17,6,1782568222,"~/MyWebsite/index.html"
--'  17  6  ~/MyWebsite/index.html
-|4,39,17,6,1782568222,"~/MyWebsite/index.html"
--'  17  6  ~/MyWebsite/index.html
-|4,39,17,6,1782568222,"~/MyWebsite/index.html"
--'  17  6  ~/MyWebsite/index.html
-|4,39,17,6,1782568222,"~/MyWebsite/index.html"
--'  1  0  ~/MyWebsite/index.html
-|4,39,1,0,1782568205,"~/MyWebsite/index.html"
--'  1  0  ~/MyWebsite/index.html
-|4,39,1,0,1782568205,"~/MyWebsite/index.html"
--'  1  0  ~/MyWebsite/index.html
-|4,39,1,0,1782568205,"~/MyWebsite/index.html"
--'  1  0  ~/MyWebsite/index.html
-|4,39,1,0,1782568205,"~/MyWebsite/index.html"
--'  1  0  ~/MyWebsite/index.html
-|4,39,1,0,1782568205,"~/MyWebsite/index.html"
--'  1  0  ~/MyWebsite/index.html
-|4,39,1,0,1782568205,"~/MyWebsite/index.html"
--'  1  0  ~/MyWebsite/index.html
-|4,39,1,0,1782568205,"~/MyWebsite/index.html"
--'  1  0  ~/MyWebsite/index.html
-|4,39,1,0,1782568205,"~/MyWebsite/index.html"
+-'  36  0  ~/MyWebsite/Jenkinsfile
+|4,39,36,0,1782635376,"~/MyWebsite/Jenkinsfile"
+-'  1  0  ~/MyWebsite/Jenkinsfile
+|4,39,1,0,1782635365,"~/MyWebsite/Jenkinsfile"
+-'  64  0  ~/MyWebsite/Jenkinsfile
+|4,39,64,0,1782635352,"~/MyWebsite/Jenkinsfile"
+-'  29  0  ~/MyWebsite/Jenkinsfile
+|4,39,29,0,1782635352,"~/MyWebsite/Jenkinsfile"
+-'  29  0  ~/MyWebsite/Jenkinsfile
+|4,39,29,0,1782632108,"~/MyWebsite/Jenkinsfile"
+-'  1  0  ~/MyWebsite/Jenkinsfile
+|4,39,1,0,1782632092,"~/MyWebsite/Jenkinsfile"
+-'  1  0  ~/MyWebsite/Jenkinsfile
+|4,39,1,0,1782632092,"~/MyWebsite/Jenkinsfile"
+-'  1  16  ~/MyWebsite/Jenkinsfile
+|4,39,1,16,1782632079,"~/MyWebsite/Jenkinsfile"
+-'  1  0  ~/MyWebsite/Jenkinsfile
+|4,39,1,0,1782632069,"~/MyWebsite/Jenkinsfile"
+-'  1  0  ~/MyWebsite/Jenkinsfile
+|4,39,1,0,1782632059,"~/MyWebsite/Jenkinsfile"
+-'  69  0  ~/MyWebsite/Jenkinsfile
+|4,39,69,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  83  0  ~/MyWebsite/Jenkinsfile
+|4,39,83,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  41  0  ~/MyWebsite/Jenkinsfile
+|4,39,41,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  55  0  ~/MyWebsite/Jenkinsfile
+|4,39,55,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  34  0  ~/MyWebsite/Jenkinsfile
+|4,39,34,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  48  0  ~/MyWebsite/Jenkinsfile
+|4,39,48,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  6  0  ~/MyWebsite/Jenkinsfile
+|4,39,6,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  20  0  ~/MyWebsite/Jenkinsfile
+|4,39,20,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  34  0  ~/MyWebsite/Jenkinsfile
+|4,39,34,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  48  0  ~/MyWebsite/Jenkinsfile
+|4,39,48,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  6  0  ~/MyWebsite/Jenkinsfile
+|4,39,6,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  20  0  ~/MyWebsite/Jenkinsfile
+|4,39,20,0,1782579218,"~/MyWebsite/Jenkinsfile"
+-'  1  0  ~/MyWebsite/Jenkinsfile
+|4,39,1,0,1782579198,"~/MyWebsite/Jenkinsfile"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1782569421,"~/.git/MERGE_MSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/MyWebsite/Jenkinsfile
+	*	1782635375	0
+	"	36	0
+	^	36	1
+	.	36	0
+	+	1	10
+	+	64	0
+	+	36	0
+
+> ~/.git/MERGE_MSG
+	*	1782569419	0
+	"	1	0
 
 > ~/scripts/install.sh
 	*	1782568368	0
